@@ -19,7 +19,7 @@ server.use(async (ctx, next) => {
 server.use(body({
     uploadDir: config.UPLOAD_DIR
 }));
-//asda
+
 
 let router = new Router();
 server.context.db = require('./libs/database');
